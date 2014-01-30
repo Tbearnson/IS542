@@ -13,6 +13,7 @@
     max-width: 980px;
     background-color: white;
     border-color: #2AB200;
+   	border:2px solid;
 }
 
 section:first-child{
