@@ -117,8 +117,17 @@ a.specialLink:hover {
 	text-decoration: none;
 }
 
+footer {
+    text-align: center;
+    height: 75 px;
+    padding-top: 20px;
+}
+ 
+ footer a {
+ 	padding-right: 15px;
+ 	padding-left: 15px;
 
-
+ }
 
 
 
