@@ -4,8 +4,17 @@
     <head>
         <title>Django Web Framework</title>
         <link href="css/styles.css" rel="stylesheet" /> 
-        <script type="text/javascript" src="js/popup.js" ></script>
+        <!--<script type="text/javascript" src="js/popup.js" ></script> -->
         <script type="text/javascript" src="js/injection.js" ></script>
+        <script type="text/javascript" src="js/jQueryFun.js" ></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.0/jquery.min.js"></script>
+        <script src="http://ajax.googleapis.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+        <link rel="stylesheet" href="http://code.jquery.com/ui/1.10.4/themes/smoothness/jquery-ui.css">
+        <script>
+            $(function() {
+                runJQ();
+            });
+        </script>
     </head>
     <body>
         <h1 class="center"> Django </h1>
@@ -13,10 +22,13 @@
          </nav>
         <div class="content">
             <section>
-               
+               <div id ="accordion">
+                
+
+                <h3>What is Django?</h3>
                  <div class="infoBlock">
                         
-                        <h3>What is Django?</h3>
+                        
                         <p>
 
                         Django is an open source web framework written in the Python language. Django, which uses the model-view-controller pattern, is used to create database-driven websites of varying complexity. The real advantages of Django lie in the reusability of code, rapid development, and the DRY principle (dont repeat yourself). As mentioned above, Django is written in Python, and Python is used throughout in settings, files, and data models. A superior Administrative interface also allows a user CRUD functions based upon the implemented data model. Django is maintained by the Django Software Foundation, which says the following about Django:
@@ -36,9 +48,8 @@
                         </p>
 
                     </div>
+                    <h3>What is a Web Framework?</h3>
                     <div class="infoBlock">
-                        
-                        <h3>What is a Web Framework?</h3>
                         <p>
 
                         Web frameworks are used to make web development simpler. Web development can come with many tedious, manual tasks. Web frameworks are designed to streamline those tasks and allow the developer more time doing the fun part of web development. To that end, most web frameworks include libraries that help with database access, templating, session management, etc. 
@@ -53,7 +64,8 @@
                                 <li>  PHP - Zend, CakePHP, CodeIgniter </li>
                                 <li> Ruby - Ruby on Rails</li>
                             </ul>
-
+                                <button class="btn1">Close List</button>
+                                <button class="btn2">Open List</button>
                         
                        <!-- <iframe width=640 height=480 src="https://www.djangoproject.com"></iframe> -->
                         
@@ -66,16 +78,15 @@
 
                         </p>
                     </div> -->
+                    <h3> How do I get started?</h3>
                     <div class="infoBlock">
-                        
-                        <h3> How do I get started?</h3>
-
                         Django is well documented and has an extensive presence on the web. I recommend that you start on Django's main website: <a href = "Https://www.djangoproject.com"> DjangoProject.com </a> and go from there. DjangoProject offers tutorials/book references/and other community websites.
 
                         If you are new to Python, then I would suggest that you start with the Dive into Python Book, which can easily be googled. 
 
     
                     </div>
+                </div>
             </section>
             <footer id = "footer"> 
         
